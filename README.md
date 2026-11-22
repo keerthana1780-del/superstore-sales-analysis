@@ -20,6 +20,8 @@ Superstore sales data from Kaggle: 9,994 order lines, 21 columns (orders, custom
 - The share of loss-making lines is 0% at no discount, 4% at 1-10%, 14% at 11-20%, then 92% at 21-30%, 92% at 31-50% and 100% above 50%.
 - Tables, Bookcases and Supplies were the loss-making sub-categories.
 
+![Share of loss-making order lines by discount level](fig3_loss_by_discount.png)
+
 ## Model results (1,999 test records)
 | Model | Accuracy | Precision | Recall | F1 | ROC AUC | 5-fold CV accuracy |
 |---|---|---|---|---|---|---|
@@ -44,4 +46,5 @@ Upload `Superstore.csv` next to the notebook and run all cells. Outputs are save
 
 ## Files
 - `superstore-sales.ipynb`: the full analysis
-- `outputs/`: the 4 charts and the cleaned CSV
+- `fig1` to `fig4` (PNG files): the 4 charts
+- `superstore_cleaned.csv`: the cleaned dataset
